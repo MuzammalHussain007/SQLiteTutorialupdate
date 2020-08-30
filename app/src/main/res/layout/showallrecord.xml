@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30px">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/recyclarveiwimage"
+            android:layout_width="240dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/recyclarveiwid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclarveiwimage"
+            android:layout_marginTop="30px"
+            android:gravity="center_horizontal"
+            android:text="ID"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/recyclarveiwusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclarveiwid"
+            android:layout_marginTop="30px"
+            android:gravity="center_horizontal"
+            android:text="UserName"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/recyclarveiwpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclarveiwusername"
+            android:layout_marginTop="30px"
+            android:gravity="center_horizontal"
+            android:text="Password"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/recyclarveiwdelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclarveiwpassword"
+            android:layout_marginTop="30px"
+            android:gravity="center_horizontal"
+            android:text="Delete Record"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+             />
+        <Button
+            android:id="@+id/recyclarveiwupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclarveiwdelete"
+            android:layout_marginTop="30px"
+            android:gravity="center_horizontal"
+            android:text="Update Record"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
